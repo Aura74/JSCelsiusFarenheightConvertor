@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-weight: 600;
+  height: 100vh;
+}
+
+input {
+  padding: 5px 10px;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100px;
+  height: 30px;
+  background: linear-gradient(90deg, dodgerblue, yellow) 0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+span {
+  margin: 8px;
+  font-size: 24px;
+}
+
+.temp-inputs {
+  display: flex;
+}
+.temps {
+  display: flex;
+  flex-direction: column;
+}
+
+.temp-buttons {
+  padding: 5px;
+}
+
+button {
+  padding: 5px;
+  margin: 10px;
+  font-family: sans-serif;
+  font-weight: 600;
+  background: purple;
+  color: white;
+  border-radius: 5px;
+}
